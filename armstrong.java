@@ -16,7 +16,7 @@ class armstrong
 	System.out.print("armstrong number");		
 	else	
 	System.out.print("not an armstrong number");
-	
+	s.close();
 	}
 	
 }

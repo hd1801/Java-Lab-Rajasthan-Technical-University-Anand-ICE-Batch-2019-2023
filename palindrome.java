@@ -6,7 +6,7 @@ import java.util.*;
 	Scanner s = new Scanner(System.in);
 	int a=s.nextInt();
 	int n=a;
-	int sum =r=0; 
+	int sum=0,r=0; 
 	while(n!=0)
 	{
 	 r=n%10;    
@@ -17,5 +17,6 @@ import java.util.*;
 	System.out.println("its a palindrome");
 	else
 	System.out.println("its a palindrome"); 
+	s.close();
 }
 }
