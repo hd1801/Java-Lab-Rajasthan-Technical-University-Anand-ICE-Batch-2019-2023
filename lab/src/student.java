@@ -22,6 +22,7 @@ public class student {
         student s2= new student();
         s1.Display();
         s2.Display();
+       
     }
     
 }
