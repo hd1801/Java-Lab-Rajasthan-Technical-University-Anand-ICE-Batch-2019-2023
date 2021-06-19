@@ -19,7 +19,7 @@ public class overriding extends Vehicle {
     @Override
     void run() {
         super.run();
-        //System.out.println("Bike is running");
+        System.out.println("Bike is running");
     }
     
     public static void main(String[] args){
