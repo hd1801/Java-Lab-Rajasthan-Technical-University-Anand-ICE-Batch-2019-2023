@@ -9,12 +9,17 @@ package lab10;
  *
  * @author karti
  */
-public class commline {
-    public static void main(String args[]){
-        for(int i=0;i<args.length;i++){
-          System.out.println("args["+i+"]:"+args[i]);
-          
-        }
-    }
+interface Printable{
+    void print();
+}
+public class Demo implements Printable {
     
+    @Override
+    public void print(){
+       System.out.println("HELLO!!!");
+    }
+    public static void main(String args[]){
+        Demo d = new Demo();
+        d.print();
+    }
 }
